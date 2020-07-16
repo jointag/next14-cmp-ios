@@ -206,10 +206,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class UIViewController;
 
-SWIFT_CLASS("_TtC9Next14CMP9Next14CMP")
-@interface Next14CMP : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Next14CMP * _Nonnull shared;)
-+ (Next14CMP * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS("_TtC9Next14CMP3CMP")
+@interface CMP : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CMP * _Nonnull shared;)
++ (CMP * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (BOOL)shouldPresentCMP SWIFT_WARN_UNUSED_RESULT;
 - (void)presentCMPFromPresentingViewController:(UIViewController * _Nonnull)presentingViewController apiKey:(NSString * _Nonnull)apiKey gdprApplies:(BOOL)gdprApplies;

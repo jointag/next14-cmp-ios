@@ -22,12 +22,12 @@ More on CocoaPods [here](https://cocoapods.org/).
 
 ## How to use
 
-To present the consent screen to the user, simply call the `Next14CMP` method
+To present the consent screen to the user, simply call the `CMP` method
 `presentCMPFromPresentingViewController:apiKey:gdprApplies` from your main screen providing your unique API KEY.
 
 ```objc
 // Add this in your viewDidAppear or similar method
-if (Next14CMP.shared.shouldPresentCMP) {
-    [Next14CMP.shared presentCMPFromPresentingViewController:self apiKey:@"<YOUR API KEY>" gdprApplies:YES];
+if (CMP.shared.shouldPresentCMP) {
+    [CMP.shared presentCMPFromPresentingViewController:self apiKey:@"<YOUR API KEY>" gdprApplies:YES];
 }
 ```
