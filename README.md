@@ -1,4 +1,4 @@
-# Next14 CMP for Android
+# Next14 CMP for iOS
 
 ## Requirements
 
