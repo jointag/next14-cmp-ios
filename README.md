@@ -9,7 +9,7 @@ The Next14 CMP SDK requires a deployment target of iOS 10.0 or higher. following
 1. Add the following to your Podfile:
 
 ```
-pod 'Next14CMP'
+  pod 'Next14CMP', '~> 1.0.1'
 ```
 
 2. Install pod by running the following command in the directory with the Podfile:
