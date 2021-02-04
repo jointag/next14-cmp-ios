@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import <Next14CMP/Next14CMP.h>
+
+@import Next14CMP;
 
 @interface ViewController ()
 
@@ -22,13 +23,13 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear: animated];
-    if (Next14CMP.shared.shouldPresentCMP) {
-        [Next14CMP.shared presentCMPFromPresentingViewController:self apiKey:@"CADD2B2AD06D8A0CAEE658E3C05E615A" gdprApplies:YES];
+    if (CMP.shared.shouldPresentCMP) {
+        [CMP.shared presentCMPFromPresentingViewController:self apiKey:@"CADD2B2AD06D8A0CAEE658E3C05E615A" gdprApplies:YES];
     }
 }
 
 - (IBAction)openCMP:(id)sender {
-    [Next14CMP.shared presentCMPFromPresentingViewController:self apiKey:@"CADD2B2AD06D8A0CAEE658E3C05E615A" gdprApplies:YES];
+    [CMP.shared presentCMPFromPresentingViewController:self apiKey:@"CADD2B2AD06D8A0CAEE658E3C05E615A" gdprApplies:YES];
 }
 
 @end

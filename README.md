@@ -2,7 +2,7 @@
 
 ## Requirements
 
-The Next14 CMP SDK requires a deployment target of iOS 10.0 or higher. following architectures are supported: armv7, armv7s and arm64 for devices, i386 and x86_64 for the iOS Simulator. Bitcode is also supported.
+The Next14 CMP SDK requires a deployment target of iOS 11.0 or higher. following architectures are supported: arm64 for devices, i386 and x86_64 for the iOS Simulator. Bitcode is also supported.
 
 ## Installation
 
