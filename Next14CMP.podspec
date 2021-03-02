@@ -1,15 +1,15 @@
 Pod::Spec.new do |spec|
   spec.name         = "Next14CMP"
-  spec.version      = "1.0.1"
+  spec.version      = "1.1.0-beta.1"
   spec.summary      = "Next14 CMP SDK."
   spec.description  = <<-DESC
   Next14 CMP SDK for iOS platform
                    DESC
   spec.homepage     = "https://next14.com"
   spec.license      = "MIT"
-  spec.author       = { "Marco Fraccaroli" => "devteam@jointag.com" }
+  spec.author       = { "Dev Team" => "devteam@jointag.com" }
 
-  spec.platform     = :ios, "10.0"
+  spec.platform     = :ios, "11.0"
 
   spec.source       = {
     :git => "https://github.com/jointag/next14-cmp-ios.git",
