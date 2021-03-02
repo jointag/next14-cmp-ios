@@ -1,11 +1,4 @@
 framework module Next14CMP {
-  umbrella header "Next14CMP.h"
-
-  export *
-  module * { export * }
-}
-
-module Next14CMP.Swift {
-    header "Next14CMP-Swift.h"
-    requires objc
+  header "Next14CMP-Swift.h"
+  requires objc
 }

@@ -13,8 +13,8 @@
 		A9469C4B24C0486C00119BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9469C4A24C0486C00119BCE /* Assets.xcassets */; };
 		A9469C4E24C0486C00119BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9469C4C24C0486C00119BCE /* LaunchScreen.storyboard */; };
 		A9469C5124C0486C00119BCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9469C5024C0486C00119BCE /* main.m */; };
-		A97F43F724C054490069DAEA /* Next14CMP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97F43F424C0543E0069DAEA /* Next14CMP.xcframework */; };
-		A97F43F824C054490069DAEA /* Next14CMP.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A97F43F424C0543E0069DAEA /* Next14CMP.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A96D5C2325CBEB5C000C0290 /* Next14CMP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97F43F424C0543E0069DAEA /* Next14CMP.xcframework */; };
+		A96D5C2425CBEB5C000C0290 /* Next14CMP.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A97F43F424C0543E0069DAEA /* Next14CMP.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A97F43F824C054490069DAEA /* Next14CMP.xcframework in Embed Frameworks */,
+				A96D5C2425CBEB5C000C0290 /* Next14CMP.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A97F43F724C054490069DAEA /* Next14CMP.xcframework in Frameworks */,
+				A96D5C2325CBEB5C000C0290 /* Next14CMP.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67BZD2K589;
 				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67BZD2K589;
 				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
