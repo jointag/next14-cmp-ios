@@ -9,7 +9,7 @@ The Next14 CMP SDK requires a deployment target of iOS 11.0 or higher. following
 1. Add the following to your Podfile:
 
 ```
-  pod 'Next14CMP', '~> 1.0.1'
+  pod 'Next14CMP', '~> 1.1.0'
 ```
 
 2. Install pod by running the following command in the directory with the Podfile:
@@ -26,8 +26,10 @@ To present the consent screen to the user, simply call the `CMP` method
 `presentCMPFromPresentingViewController:apiKey:gdprApplies` from your main screen providing your unique API KEY.
 
 ```objc
-// Add this in your viewDidAppear or similar method
-if (CMP.shared.shouldPresentCMP) {
-    [CMP.shared presentCMPFromPresentingViewController:self apiKey:@"<YOUR API KEY>" gdprApplies:YES];
-}
+    // Add this in your viewDidAppear or similar method
+    if (CMP.shared.shouldPresentCMP) {
+        [CMP.shared presentCMPFromPresentingViewController:self apiKey:@"CADD2B2AD06D8A0CAEE658E3C05E615A" gdprApplies:YES onComplete:^{
+
+        }];
+    }
 ```

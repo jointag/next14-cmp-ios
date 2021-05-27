@@ -1,4 +1,0 @@
-framework module Next14CMP {
-  header "Next14CMP-Swift.h"
-  requires objc
-}

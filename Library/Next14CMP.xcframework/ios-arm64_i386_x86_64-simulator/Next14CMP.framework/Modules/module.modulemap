@@ -1,0 +1,4 @@
+framework module Next14CMP {
+  header "Next14CMP.h"
+  requires objc
+}
