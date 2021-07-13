@@ -1,10 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Next14CMP
 import Foundation
 import Swift
 import UIKit
 import WebKit
+import os.log
+import os
 @objc @_inheritsConvenienceInitializers @objcMembers public class CMP : ObjectiveC.NSObject {
   @objc public static let shared: Next14CMP.CMP
   @objc override dynamic public init()
@@ -12,3 +14,31 @@ import WebKit
   @objc public func presentCMPFrom(presentingViewController: UIKit.UIViewController, apiKey: Swift.String, gdprApplies: Swift.Bool = true, onComplete: (() -> Swift.Void)? = nil)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers public class Logger : ObjectiveC.NSObject {
+  public static var `default`: Next14CMP.LogWriter
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum LogLevel : Swift.UInt8 {
+  case verbose
+  case debug
+  case info
+  case warn
+  case error
+  public init?(rawValue: Swift.UInt8)
+  public typealias RawValue = Swift.UInt8
+  public var rawValue: Swift.UInt8 {
+    get
+  }
+}
+public protocol LogWriter {
+  var level: Next14CMP.LogLevel { get set }
+  func v(_ format: Swift.String, _ arguments: Swift.CVarArg...)
+  func d(_ format: Swift.String, _ arguments: Swift.CVarArg...)
+  func i(_ format: Swift.String, _ arguments: Swift.CVarArg...)
+  func w(_ format: Swift.String, _ arguments: Swift.CVarArg...)
+  func e(_ format: Swift.String, _ arguments: Swift.CVarArg...)
+}
+extension Next14CMP.LogLevel : Swift.Equatable {}
+extension Next14CMP.LogLevel : Swift.Hashable {}
+extension Next14CMP.LogLevel : Swift.RawRepresentable {}
