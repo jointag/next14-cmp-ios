@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Next14CMP"
-  spec.version      = "1.1.1"
+  spec.version      = "1.1.2"
   spec.summary      = "Next14 CMP SDK."
   spec.description  = <<-DESC
   Next14 CMP SDK for iOS platform
