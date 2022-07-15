@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Next14CMP
+import Accessibility
 import Foundation
 import Swift
 import UIKit
@@ -11,9 +12,20 @@ import os
 @objc @_inheritsConvenienceInitializers @objcMembers public class CMP : ObjectiveC.NSObject {
   @objc public static let shared: Next14CMP.CMP
   @objc override dynamic public init()
+  public func start(apiKey: Swift.String, settings: Next14CMP.CMPSettings = CMPSettings(), completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
   @objc public func shouldPresentCMP() -> Swift.Bool
-  @objc public func presentCMPFrom(presentingViewController: UIKit.UIViewController, apiKey: Swift.String, gdprApplies: Swift.Bool = true, onComplete: (() -> Swift.Void)? = nil)
+  @objc public func present(from presenter: UIKit.UIViewController, gdprApplies: Swift.Bool = true, onComplete: (() -> Swift.Void)? = nil)
   @objc deinit
+}
+public struct CMPSettings {
+  public init()
+  public var consentPreferenceValidityDays: Swift.Int
+}
+@propertyWrapper public struct CodableProperty<Value> where Value : Swift.Decodable, Value : Swift.Encodable {
+  public var wrappedValue: Value {
+    get
+    set(newValue)
+  }
 }
 @objc @_inheritsConvenienceInitializers public class Logger : ObjectiveC.NSObject {
   public static var `default`: Next14CMP.LogWriter
