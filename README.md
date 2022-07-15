@@ -70,3 +70,11 @@ fully dismissed.
       }
   }
 ```
+
+#### CMPSdk.present Parameters
+
+| Parameter    | Description                                           | Required |
+| ------------ | ----------------------------------------------------- | -------- |
+| from         | The presenting UIVieController                        | Yes      |
+| gdprApplies  | whether the GDPR applies to the current user or not   | No       |
+| onComplete   | an optional callback to be notified when the consent screen is closed  | No       |

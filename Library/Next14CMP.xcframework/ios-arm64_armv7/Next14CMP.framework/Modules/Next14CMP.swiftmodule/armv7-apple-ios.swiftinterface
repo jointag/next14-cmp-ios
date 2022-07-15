@@ -12,14 +12,17 @@ import os
 @objc @_inheritsConvenienceInitializers @objcMembers public class CMP : ObjectiveC.NSObject {
   @objc public static let shared: Next14CMP.CMP
   @objc override dynamic public init()
+  @objc public func start(apiKey: Swift.String, settings: Next14CMP.CMPSettings = CMPSettings(), onComplete: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
   public func start(apiKey: Swift.String, settings: Next14CMP.CMPSettings = CMPSettings(), completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
   @objc public func shouldPresentCMP() -> Swift.Bool
   @objc public func present(from presenter: UIKit.UIViewController, gdprApplies: Swift.Bool = true, onComplete: (() -> Swift.Void)? = nil)
   @objc deinit
 }
-public struct CMPSettings {
-  public init()
-  public var consentPreferenceValidityDays: Swift.Int
+@objc @_inheritsConvenienceInitializers @objcMembers public class CMPSettings : ObjectiveC.NSObject {
+  @objc public var consentPreferenceValidityDays: Swift.Int
+  @objc override dynamic public init()
+  @objc public init(consentPreferenceValidityDays: Swift.Int = 180)
+  @objc deinit
 }
 @propertyWrapper public struct CodableProperty<Value> where Value : Swift.Decodable, Value : Swift.Encodable {
   public var wrappedValue: Value {

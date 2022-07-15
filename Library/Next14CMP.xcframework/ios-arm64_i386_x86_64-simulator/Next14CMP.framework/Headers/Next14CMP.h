@@ -215,6 +215,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSString;
+@class CMPSettings;
 @class UIViewController;
 
 SWIFT_CLASS("_TtC9Next14CMP3CMP")
@@ -222,8 +224,17 @@ SWIFT_CLASS("_TtC9Next14CMP3CMP")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CMP * _Nonnull shared;)
 + (CMP * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)startWithApiKey:(NSString * _Nonnull)apiKey settings:(CMPSettings * _Nonnull)settings onComplete:(void (^ _Nullable)(BOOL, NSError * _Nullable))onComplete;
 - (BOOL)shouldPresentCMP SWIFT_WARN_UNUSED_RESULT;
 - (void)presentFrom:(UIViewController * _Nonnull)presenter gdprApplies:(BOOL)gdprApplies onComplete:(void (^ _Nullable)(void))onComplete;
+@end
+
+
+SWIFT_CLASS("_TtC9Next14CMP11CMPSettings")
+@interface CMPSettings : NSObject
+@property (nonatomic) NSInteger consentPreferenceValidityDays;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithConsentPreferenceValidityDays:(NSInteger)consentPreferenceValidityDays OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -455,6 +466,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSString;
+@class CMPSettings;
 @class UIViewController;
 
 SWIFT_CLASS("_TtC9Next14CMP3CMP")
@@ -462,8 +475,17 @@ SWIFT_CLASS("_TtC9Next14CMP3CMP")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CMP * _Nonnull shared;)
 + (CMP * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)startWithApiKey:(NSString * _Nonnull)apiKey settings:(CMPSettings * _Nonnull)settings onComplete:(void (^ _Nullable)(BOOL, NSError * _Nullable))onComplete;
 - (BOOL)shouldPresentCMP SWIFT_WARN_UNUSED_RESULT;
 - (void)presentFrom:(UIViewController * _Nonnull)presenter gdprApplies:(BOOL)gdprApplies onComplete:(void (^ _Nullable)(void))onComplete;
+@end
+
+
+SWIFT_CLASS("_TtC9Next14CMP11CMPSettings")
+@interface CMPSettings : NSObject
+@property (nonatomic) NSInteger consentPreferenceValidityDays;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithConsentPreferenceValidityDays:(NSInteger)consentPreferenceValidityDays OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -695,6 +717,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSString;
+@class CMPSettings;
 @class UIViewController;
 
 SWIFT_CLASS("_TtC9Next14CMP3CMP")
@@ -702,8 +726,17 @@ SWIFT_CLASS("_TtC9Next14CMP3CMP")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CMP * _Nonnull shared;)
 + (CMP * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)startWithApiKey:(NSString * _Nonnull)apiKey settings:(CMPSettings * _Nonnull)settings onComplete:(void (^ _Nullable)(BOOL, NSError * _Nullable))onComplete;
 - (BOOL)shouldPresentCMP SWIFT_WARN_UNUSED_RESULT;
 - (void)presentFrom:(UIViewController * _Nonnull)presenter gdprApplies:(BOOL)gdprApplies onComplete:(void (^ _Nullable)(void))onComplete;
+@end
+
+
+SWIFT_CLASS("_TtC9Next14CMP11CMPSettings")
+@interface CMPSettings : NSObject
+@property (nonatomic) NSInteger consentPreferenceValidityDays;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithConsentPreferenceValidityDays:(NSInteger)consentPreferenceValidityDays OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
