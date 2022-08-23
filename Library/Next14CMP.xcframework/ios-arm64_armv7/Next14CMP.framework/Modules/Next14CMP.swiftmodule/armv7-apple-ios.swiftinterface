@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Next14CMP
 import Foundation
 import Swift
@@ -8,11 +8,37 @@ import WebKit
 import _Concurrency
 import os.log
 import os
+@propertyWrapper public struct StringProperty {
+  public var wrappedValue: Swift.String? {
+    get
+    set(newValue)
+  }
+}
+@propertyWrapper public struct BoolProperty {
+  public var wrappedValue: Swift.Bool {
+    get
+    set(newValue)
+  }
+}
+@propertyWrapper public struct DoubleProperty {
+  public var wrappedValue: Swift.Double {
+    get
+    set(newValue)
+  }
+}
 @objc @_inheritsConvenienceInitializers @objcMembers public class CMP : ObjectiveC.NSObject {
   @objc public static let shared: Next14CMP.CMP
   @objc override dynamic public init()
+  @objc public func start(apiKey: Swift.String, settings: Next14CMP.CMPSettings = CMPSettings(), onComplete: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  public func start(apiKey: Swift.String, settings: Next14CMP.CMPSettings = CMPSettings(), completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
   @objc public func shouldPresentCMP() -> Swift.Bool
-  @objc public func presentCMPFrom(presentingViewController: UIKit.UIViewController, apiKey: Swift.String, gdprApplies: Swift.Bool = true, onComplete: (() -> Swift.Void)? = nil)
+  @objc public func present(from presenter: UIKit.UIViewController, gdprApplies: Swift.Bool = true, onComplete: (() -> Swift.Void)? = nil)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class CMPSettings : ObjectiveC.NSObject {
+  @objc public var consentPreferenceValidityDays: Swift.Int
+  @objc override dynamic public init()
+  @objc public init(consentPreferenceValidityDays: Swift.Int = 180)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class Logger : ObjectiveC.NSObject {
@@ -39,6 +65,12 @@ public protocol LogWriter {
   func i(_ format: Swift.String, _ arguments: Swift.CVarArg...)
   func w(_ format: Swift.String, _ arguments: Swift.CVarArg...)
   func e(_ format: Swift.String, _ arguments: Swift.CVarArg...)
+}
+@propertyWrapper public struct IntProperty {
+  public var wrappedValue: Swift.Int {
+    get
+    set(newValue)
+  }
 }
 extension Next14CMP.LogLevel : Swift.Equatable {}
 extension Next14CMP.LogLevel : Swift.Hashable {}

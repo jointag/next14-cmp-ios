@@ -17,16 +17,18 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear: animated];
-    if (CMP.shared.shouldPresentCMP) {
-        [CMP.shared presentCMPFromPresentingViewController:self apiKey:@"CADD2B2AD06D8A0CAEE658E3C05E615A" gdprApplies:YES onComplete:^{
+    [CMP.shared startWithApiKey:@"CADD2B2AD06D8A0CAEE658E3C05E615A" settings:[[CMPSettings alloc] init] onComplete:^(BOOL success, NSError * _Nullable error) {
+        if (CMP.shared.shouldPresentCMP) {
+            [CMP.shared presentFrom:self gdprApplies:YES onComplete:^{
 
-        }];
-    }
+            }];
+        }
+    }];
 }
 
 - (IBAction)openCMP:(id)sender {
-    [CMP.shared presentCMPFromPresentingViewController:self apiKey:@"CADD2B2AD06D8A0CAEE658E3C05E615A" gdprApplies:YES onComplete:^{
-        
+    [CMP.shared presentFrom:self gdprApplies:YES onComplete:^{
+
     }];
 }
 
