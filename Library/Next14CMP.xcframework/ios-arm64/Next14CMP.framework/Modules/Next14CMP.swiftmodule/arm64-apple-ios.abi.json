@@ -1,0 +1,2967 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StringProperty",
+        "printedName": "StringProperty",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Next14CMP14StringPropertyV12wrappedValueSSSgvp",
+            "mangledName": "$s9Next14CMP14StringPropertyV12wrappedValueSSSgvp",
+            "moduleName": "Next14CMP",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP14StringPropertyV12wrappedValueSSSgvg",
+                "mangledName": "$s9Next14CMP14StringPropertyV12wrappedValueSSSgvg",
+                "moduleName": "Next14CMP",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP14StringPropertyV12wrappedValueSSSgvs",
+                "mangledName": "$s9Next14CMP14StringPropertyV12wrappedValueSSSgvs",
+                "moduleName": "Next14CMP",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP14StringPropertyV12wrappedValueSSSgvM",
+                "mangledName": "$s9Next14CMP14StringPropertyV12wrappedValueSSSgvM",
+                "moduleName": "Next14CMP",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Next14CMP14StringPropertyV",
+        "mangledName": "$s9Next14CMP14StringPropertyV",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BoolProperty",
+        "printedName": "BoolProperty",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Next14CMP12BoolPropertyV12wrappedValueSbvp",
+            "mangledName": "$s9Next14CMP12BoolPropertyV12wrappedValueSbvp",
+            "moduleName": "Next14CMP",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP12BoolPropertyV12wrappedValueSbvg",
+                "mangledName": "$s9Next14CMP12BoolPropertyV12wrappedValueSbvg",
+                "moduleName": "Next14CMP",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP12BoolPropertyV12wrappedValueSbvs",
+                "mangledName": "$s9Next14CMP12BoolPropertyV12wrappedValueSbvs",
+                "moduleName": "Next14CMP",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP12BoolPropertyV12wrappedValueSbvM",
+                "mangledName": "$s9Next14CMP12BoolPropertyV12wrappedValueSbvM",
+                "moduleName": "Next14CMP",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Next14CMP12BoolPropertyV",
+        "mangledName": "$s9Next14CMP12BoolPropertyV",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DoubleProperty",
+        "printedName": "DoubleProperty",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Next14CMP14DoublePropertyV12wrappedValueSdvp",
+            "mangledName": "$s9Next14CMP14DoublePropertyV12wrappedValueSdvp",
+            "moduleName": "Next14CMP",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP14DoublePropertyV12wrappedValueSdvg",
+                "mangledName": "$s9Next14CMP14DoublePropertyV12wrappedValueSdvg",
+                "moduleName": "Next14CMP",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP14DoublePropertyV12wrappedValueSdvs",
+                "mangledName": "$s9Next14CMP14DoublePropertyV12wrappedValueSdvs",
+                "moduleName": "Next14CMP",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP14DoublePropertyV12wrappedValueSdvM",
+                "mangledName": "$s9Next14CMP14DoublePropertyV12wrappedValueSdvM",
+                "moduleName": "Next14CMP",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Next14CMP14DoublePropertyV",
+        "mangledName": "$s9Next14CMP14DoublePropertyV",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Next14CMP"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CMP",
+        "printedName": "CMP",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CMP",
+                "printedName": "Next14CMP.CMP",
+                "usr": "c:@M@Next14CMP@objc(cs)CMP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Next14CMP@objc(cs)CMP(cpy)shared",
+            "mangledName": "$s9Next14CMP0B0C6sharedACvpZ",
+            "moduleName": "Next14CMP",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMP",
+                    "printedName": "Next14CMP.CMP",
+                    "usr": "c:@M@Next14CMP@objc(cs)CMP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Next14CMP@objc(cs)CMP(cm)shared",
+                "mangledName": "$s9Next14CMP0B0C6sharedACvgZ",
+                "moduleName": "Next14CMP",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CMP",
+                "printedName": "Next14CMP.CMP",
+                "usr": "c:@M@Next14CMP@objc(cs)CMP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Next14CMP@objc(cs)CMP(im)init",
+            "mangledName": "$s9Next14CMP0B0CACycfc",
+            "moduleName": "Next14CMP",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(apiKey:settings:onComplete:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMPSettings",
+                "printedName": "Next14CMP.CMPSettings",
+                "hasDefaultArg": true,
+                "usr": "c:@M@Next14CMP@objc(cs)CMPSettings"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Next14CMP@objc(cs)CMP(im)startWithApiKey:settings:onComplete:",
+            "mangledName": "$s9Next14CMP0B0C5start6apiKey8settings10onCompleteySS_AA11CMPSettingsCySb_s5Error_pSgtcSgtF",
+            "moduleName": "Next14CMP",
+            "objc_name": "startWithApiKey:settings:onComplete:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(apiKey:settings:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMPSettings",
+                "printedName": "Next14CMP.CMPSettings",
+                "hasDefaultArg": true,
+                "usr": "c:@M@Next14CMP@objc(cs)CMPSettings"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Next14CMP0B0C5start6apiKey8settings10completionySS_AA11CMPSettingsCys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s9Next14CMP0B0C5start6apiKey8settings10completionySS_AA11CMPSettingsCys6ResultOySbs5Error_pGctF",
+            "moduleName": "Next14CMP",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldPresentCMP",
+            "printedName": "shouldPresentCMP()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Next14CMP@objc(cs)CMP(im)shouldPresentCMP",
+            "mangledName": "$s9Next14CMP0B0C013shouldPresentB0SbyF",
+            "moduleName": "Next14CMP",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(from:gdprApplies:onComplete:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Next14CMP@objc(cs)CMP(im)presentFrom:gdprApplies:onComplete:",
+            "mangledName": "$s9Next14CMP0B0C7present4from11gdprApplies10onCompleteySo16UIViewControllerC_SbyycSgtF",
+            "moduleName": "Next14CMP",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Next14CMP@objc(cs)CMP",
+        "mangledName": "$s9Next14CMP0B0C",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CMPSettings",
+        "printedName": "CMPSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "consentPreferenceValidityDays",
+            "printedName": "consentPreferenceValidityDays",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Next14CMP@objc(cs)CMPSettings(py)consentPreferenceValidityDays",
+            "mangledName": "$s9Next14CMP11CMPSettingsC29consentPreferenceValidityDaysSivp",
+            "moduleName": "Next14CMP",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Next14CMP@objc(cs)CMPSettings(im)consentPreferenceValidityDays",
+                "mangledName": "$s9Next14CMP11CMPSettingsC29consentPreferenceValidityDaysSivg",
+                "moduleName": "Next14CMP",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Next14CMP@objc(cs)CMPSettings(im)setConsentPreferenceValidityDays:",
+                "mangledName": "$s9Next14CMP11CMPSettingsC29consentPreferenceValidityDaysSivs",
+                "moduleName": "Next14CMP",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP11CMPSettingsC29consentPreferenceValidityDaysSivM",
+                "mangledName": "$s9Next14CMP11CMPSettingsC29consentPreferenceValidityDaysSivM",
+                "moduleName": "Next14CMP",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CMPSettings",
+                "printedName": "Next14CMP.CMPSettings",
+                "usr": "c:@M@Next14CMP@objc(cs)CMPSettings"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Next14CMP@objc(cs)CMPSettings(im)init",
+            "mangledName": "$s9Next14CMP11CMPSettingsCACycfc",
+            "moduleName": "Next14CMP",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(consentPreferenceValidityDays:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CMPSettings",
+                "printedName": "Next14CMP.CMPSettings",
+                "usr": "c:@M@Next14CMP@objc(cs)CMPSettings"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Next14CMP@objc(cs)CMPSettings(im)initWithConsentPreferenceValidityDays:",
+            "mangledName": "$s9Next14CMP11CMPSettingsC29consentPreferenceValidityDaysACSi_tcfc",
+            "moduleName": "Next14CMP",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Next14CMP@objc(cs)CMPSettings",
+        "mangledName": "$s9Next14CMP11CMPSettingsC",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Next14CMP"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Next14CMP"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "Next14CMP"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogWriter",
+                "printedName": "Next14CMP.LogWriter",
+                "usr": "s:9Next14CMP9LogWriterP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Next14CMP6LoggerC7defaultAA9LogWriter_pvpZ",
+            "mangledName": "$s9Next14CMP6LoggerC7defaultAA9LogWriter_pvpZ",
+            "moduleName": "Next14CMP",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogWriter",
+                    "printedName": "Next14CMP.LogWriter",
+                    "usr": "s:9Next14CMP9LogWriterP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP6LoggerC7defaultAA9LogWriter_pvgZ",
+                "mangledName": "$s9Next14CMP6LoggerC7defaultAA9LogWriter_pvgZ",
+                "moduleName": "Next14CMP",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogWriter",
+                    "printedName": "Next14CMP.LogWriter",
+                    "usr": "s:9Next14CMP9LogWriterP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP6LoggerC7defaultAA9LogWriter_pvsZ",
+                "mangledName": "$s9Next14CMP6LoggerC7defaultAA9LogWriter_pvsZ",
+                "moduleName": "Next14CMP",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP6LoggerC7defaultAA9LogWriter_pvMZ",
+                "mangledName": "$s9Next14CMP6LoggerC7defaultAA9LogWriter_pvMZ",
+                "moduleName": "Next14CMP",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Logger",
+                "printedName": "Next14CMP.Logger",
+                "usr": "c:@M@Next14CMP@objc(cs)Logger"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Next14CMP@objc(cs)Logger(im)init",
+            "mangledName": "$s9Next14CMP6LoggerCACycfc",
+            "moduleName": "Next14CMP",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Next14CMP@objc(cs)Logger",
+        "mangledName": "$s9Next14CMP6LoggerC",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "verbose",
+            "printedName": "verbose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Next14CMP.LogLevel.Type) -> Next14CMP.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "Next14CMP.LogLevel",
+                    "usr": "s:9Next14CMP8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Next14CMP.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "Next14CMP.LogLevel",
+                        "usr": "s:9Next14CMP8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Next14CMP8LogLevelO7verboseyA2CmF",
+            "mangledName": "$s9Next14CMP8LogLevelO7verboseyA2CmF",
+            "moduleName": "Next14CMP"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Next14CMP.LogLevel.Type) -> Next14CMP.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "Next14CMP.LogLevel",
+                    "usr": "s:9Next14CMP8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Next14CMP.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "Next14CMP.LogLevel",
+                        "usr": "s:9Next14CMP8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Next14CMP8LogLevelO5debugyA2CmF",
+            "mangledName": "$s9Next14CMP8LogLevelO5debugyA2CmF",
+            "moduleName": "Next14CMP"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Next14CMP.LogLevel.Type) -> Next14CMP.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "Next14CMP.LogLevel",
+                    "usr": "s:9Next14CMP8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Next14CMP.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "Next14CMP.LogLevel",
+                        "usr": "s:9Next14CMP8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Next14CMP8LogLevelO4infoyA2CmF",
+            "mangledName": "$s9Next14CMP8LogLevelO4infoyA2CmF",
+            "moduleName": "Next14CMP"
+          },
+          {
+            "kind": "Var",
+            "name": "warn",
+            "printedName": "warn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Next14CMP.LogLevel.Type) -> Next14CMP.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "Next14CMP.LogLevel",
+                    "usr": "s:9Next14CMP8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Next14CMP.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "Next14CMP.LogLevel",
+                        "usr": "s:9Next14CMP8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Next14CMP8LogLevelO4warnyA2CmF",
+            "mangledName": "$s9Next14CMP8LogLevelO4warnyA2CmF",
+            "moduleName": "Next14CMP"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Next14CMP.LogLevel.Type) -> Next14CMP.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "Next14CMP.LogLevel",
+                    "usr": "s:9Next14CMP8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Next14CMP.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "Next14CMP.LogLevel",
+                        "usr": "s:9Next14CMP8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9Next14CMP8LogLevelO5erroryA2CmF",
+            "mangledName": "$s9Next14CMP8LogLevelO5erroryA2CmF",
+            "moduleName": "Next14CMP"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Next14CMP.LogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "Next14CMP.LogLevel",
+                    "usr": "s:9Next14CMP8LogLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Next14CMP8LogLevelO8rawValueACSgs5UInt8V_tcfc",
+            "mangledName": "$s9Next14CMP8LogLevelO8rawValueACSgs5UInt8V_tcfc",
+            "moduleName": "Next14CMP",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Next14CMP8LogLevelO8rawValues5UInt8Vvp",
+            "mangledName": "$s9Next14CMP8LogLevelO8rawValues5UInt8Vvp",
+            "moduleName": "Next14CMP",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP8LogLevelO8rawValues5UInt8Vvg",
+                "mangledName": "$s9Next14CMP8LogLevelO8rawValues5UInt8Vvg",
+                "moduleName": "Next14CMP",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9Next14CMP8LogLevelO",
+        "mangledName": "$s9Next14CMP8LogLevelO",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "UInt8",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogWriter",
+        "printedName": "LogWriter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "level",
+            "printedName": "level",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "Next14CMP.LogLevel",
+                "usr": "s:9Next14CMP8LogLevelO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Next14CMP9LogWriterP5levelAA0C5LevelOvp",
+            "mangledName": "$s9Next14CMP9LogWriterP5levelAA0C5LevelOvp",
+            "moduleName": "Next14CMP",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "Next14CMP.LogLevel",
+                    "usr": "s:9Next14CMP8LogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP9LogWriterP5levelAA0C5LevelOvg",
+                "mangledName": "$s9Next14CMP9LogWriterP5levelAA0C5LevelOvg",
+                "moduleName": "Next14CMP",
+                "genericSig": "<τ_0_0 where τ_0_0 : Next14CMP.LogWriter>",
+                "sugared_genericSig": "<Self where Self : Next14CMP.LogWriter>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "Next14CMP.LogLevel",
+                    "usr": "s:9Next14CMP8LogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP9LogWriterP5levelAA0C5LevelOvs",
+                "mangledName": "$s9Next14CMP9LogWriterP5levelAA0C5LevelOvs",
+                "moduleName": "Next14CMP",
+                "genericSig": "<τ_0_0 where τ_0_0 : Next14CMP.LogWriter>",
+                "sugared_genericSig": "<Self where Self : Next14CMP.LogWriter>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP9LogWriterP5levelAA0C5LevelOvM",
+                "mangledName": "$s9Next14CMP9LogWriterP5levelAA0C5LevelOvM",
+                "moduleName": "Next14CMP",
+                "genericSig": "<τ_0_0 where τ_0_0 : Next14CMP.LogWriter>",
+                "sugared_genericSig": "<Self where Self : Next14CMP.LogWriter>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "v",
+            "printedName": "v(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.CVarArg]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVarArg",
+                    "printedName": "Swift.CVarArg",
+                    "usr": "s:s7CVarArgP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Next14CMP9LogWriterP1vyySS_s7CVarArg_pdtF",
+            "mangledName": "$s9Next14CMP9LogWriterP1vyySS_s7CVarArg_pdtF",
+            "moduleName": "Next14CMP",
+            "genericSig": "<τ_0_0 where τ_0_0 : Next14CMP.LogWriter>",
+            "sugared_genericSig": "<Self where Self : Next14CMP.LogWriter>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "d",
+            "printedName": "d(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.CVarArg]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVarArg",
+                    "printedName": "Swift.CVarArg",
+                    "usr": "s:s7CVarArgP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Next14CMP9LogWriterP1dyySS_s7CVarArg_pdtF",
+            "mangledName": "$s9Next14CMP9LogWriterP1dyySS_s7CVarArg_pdtF",
+            "moduleName": "Next14CMP",
+            "genericSig": "<τ_0_0 where τ_0_0 : Next14CMP.LogWriter>",
+            "sugared_genericSig": "<Self where Self : Next14CMP.LogWriter>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "i",
+            "printedName": "i(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.CVarArg]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVarArg",
+                    "printedName": "Swift.CVarArg",
+                    "usr": "s:s7CVarArgP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Next14CMP9LogWriterP1iyySS_s7CVarArg_pdtF",
+            "mangledName": "$s9Next14CMP9LogWriterP1iyySS_s7CVarArg_pdtF",
+            "moduleName": "Next14CMP",
+            "genericSig": "<τ_0_0 where τ_0_0 : Next14CMP.LogWriter>",
+            "sugared_genericSig": "<Self where Self : Next14CMP.LogWriter>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "w",
+            "printedName": "w(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.CVarArg]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVarArg",
+                    "printedName": "Swift.CVarArg",
+                    "usr": "s:s7CVarArgP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Next14CMP9LogWriterP1wyySS_s7CVarArg_pdtF",
+            "mangledName": "$s9Next14CMP9LogWriterP1wyySS_s7CVarArg_pdtF",
+            "moduleName": "Next14CMP",
+            "genericSig": "<τ_0_0 where τ_0_0 : Next14CMP.LogWriter>",
+            "sugared_genericSig": "<Self where Self : Next14CMP.LogWriter>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "e",
+            "printedName": "e(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.CVarArg]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVarArg",
+                    "printedName": "Swift.CVarArg",
+                    "usr": "s:s7CVarArgP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Next14CMP9LogWriterP1eyySS_s7CVarArg_pdtF",
+            "mangledName": "$s9Next14CMP9LogWriterP1eyySS_s7CVarArg_pdtF",
+            "moduleName": "Next14CMP",
+            "genericSig": "<τ_0_0 where τ_0_0 : Next14CMP.LogWriter>",
+            "sugared_genericSig": "<Self where Self : Next14CMP.LogWriter>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9Next14CMP9LogWriterP",
+        "mangledName": "$s9Next14CMP9LogWriterP",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IntProperty",
+        "printedName": "IntProperty",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Next14CMP11IntPropertyV12wrappedValueSivp",
+            "mangledName": "$s9Next14CMP11IntPropertyV12wrappedValueSivp",
+            "moduleName": "Next14CMP",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP11IntPropertyV12wrappedValueSivg",
+                "mangledName": "$s9Next14CMP11IntPropertyV12wrappedValueSivg",
+                "moduleName": "Next14CMP",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP11IntPropertyV12wrappedValueSivs",
+                "mangledName": "$s9Next14CMP11IntPropertyV12wrappedValueSivs",
+                "moduleName": "Next14CMP",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Next14CMP11IntPropertyV12wrappedValueSivM",
+                "mangledName": "$s9Next14CMP11IntPropertyV12wrappedValueSivM",
+                "moduleName": "Next14CMP",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Next14CMP11IntPropertyV",
+        "mangledName": "$s9Next14CMP11IntPropertyV",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Next14CMP",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 314,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 325,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 372,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 384,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 443,
+      "length": 2,
+      "value": "42"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 503,
+      "length": 2,
+      "value": "78"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 555,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 567,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 622,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 633,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 691,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 703,
+      "length": 3,
+      "value": "108"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 764,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 776,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 836,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 847,
+      "length": 3,
+      "value": "132"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 908,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 919,
+      "length": 3,
+      "value": "138"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 984,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 995,
+      "length": 3,
+      "value": "139"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1060,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1072,
+      "length": 3,
+      "value": "140"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1130,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1142,
+      "length": 3,
+      "value": "152"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1208,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1220,
+      "length": 3,
+      "value": "176"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1283,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1294,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1348,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1360,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1422,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1434,
+      "length": 3,
+      "value": "213"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1500,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1511,
+      "length": 3,
+      "value": "229"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1566,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1577,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1681,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1692,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1752,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1764,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1832,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1844,
+      "length": 2,
+      "value": "27"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1904,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/Fields.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1915,
+      "length": 2,
+      "value": "51"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Network\/HttpRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Network\/HttpRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Network\/HttpRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Network\/HttpRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Network\/HttpRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Network\/HttpRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMP.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 42,
+      "value": "\"https:\/\/cmp.datafront.co\/%@\/cmp-m-2.html\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMP.swift",
+      "kind": "StringLiteral",
+      "offset": 411,
+      "length": 19,
+      "value": "\"NEXT14CMP_API_KEY\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMP.swift",
+      "kind": "StringLiteral",
+      "offset": 486,
+      "length": 38,
+      "value": "\"NEXT14CMP_REMOTE_VENDOR_LIST_VERSION\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMP.swift",
+      "kind": "StringLiteral",
+      "offset": 593,
+      "length": 30,
+      "value": "\"NEXT14CMP_REMOTE_CMP_VERSION\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMP.swift",
+      "kind": "StringLiteral",
+      "offset": 685,
+      "length": 44,
+      "value": "\"NEXT14CMP_CONSENT_PREFERENCE_VALIDITY_DAYS\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3380,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPSettings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPSettings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 386,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/PublisherRestriction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/PublisherRestriction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/PublisherRestriction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/PublisherRestriction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/PublisherRestriction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/PublisherRestriction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/PublisherRestriction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/PublisherRestriction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/PublisherRestriction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/PublisherRestriction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/PublisherRestriction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/Models\/PublisherRestriction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2183,
+      "length": 29,
+      "value": "\"NEXT14CMP_CONSENT_TIMESTAMP\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2252,
+      "length": 31,
+      "value": "\"NEXT14CMP_VENDOR_LIST_VERSION\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2320,
+      "length": 28,
+      "value": "\"NEXT14CMP_NON_IAB_CONSENTS\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2383,
+      "length": 20,
+      "value": "\"IABTCF_gdprApplies\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2434,
+      "length": 17,
+      "value": "\"IABTCF_TCString\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2482,
+      "length": 17,
+      "value": "\"IABTCF_CmpSdkID\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2535,
+      "length": 22,
+      "value": "\"IABTCF_CmpSdkVersion\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2593,
+      "length": 22,
+      "value": "\"IABTCF_PolicyVersion\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2649,
+      "length": 20,
+      "value": "\"IABTCF_PublisherCC\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2711,
+      "length": 28,
+      "value": "\"IABTCF_PurposeOneTreatment\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2782,
+      "length": 29,
+      "value": "\"IABTCF_UseNonStandardStacks\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2848,
+      "length": 23,
+      "value": "\"IABTCF_VendorConsents\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2919,
+      "length": 34,
+      "value": "\"IABTCF_VendorLegitimateInterests\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2991,
+      "length": 24,
+      "value": "\"IABTCF_PurposeConsents\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 3064,
+      "length": 35,
+      "value": "\"IABTCF_PurposeLegitimateInterests\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 3143,
+      "length": 30,
+      "value": "\"IABTCF_SpecialFeaturesOptIns\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 3212,
+      "length": 25,
+      "value": "\"IABTCF_PublisherConsent\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 3288,
+      "length": 37,
+      "value": "\"IABTCF_PublisherLegitimateInterests\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 3379,
+      "length": 40,
+      "value": "\"IABTCF_PublisherCustomPurposesConsents\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 3484,
+      "length": 51,
+      "value": "\"IABTCF_PublisherCustomPurposesLegitimateInterests\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/CMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 3570,
+      "length": 21,
+      "value": "\"IABTCF_AddtlConsent\""
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 322,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 343,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 385,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 322,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 343,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 385,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 322,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 343,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 385,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/Utils\/Logger\/Logger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 291,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 291,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 291,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/KINGSTON-APFS\/Progetti\/next14\/cmp-ios\/Next14CMP\/TCF\/ConsentString\/ConsentStringV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}
