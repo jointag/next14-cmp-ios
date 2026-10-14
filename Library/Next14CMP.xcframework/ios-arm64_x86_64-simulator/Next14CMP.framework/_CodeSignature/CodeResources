@@ -10,7 +10,7 @@
 		</data>
 		<key>CMPStoryboard.storyboardc/Qp6-q8-NNl-view-EnK-he-d6r.nib</key>
 		<data>
-		B+WbWtLbapXDeizxqk7Cksx0vRE=
+		KDm3zTSrYHFH/aBMa8r5YVjGs0M=
 		</data>
 		<key>CMPStoryboard.storyboardc/UIViewController-Qp6-q8-NNl.nib</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Headers/Next14CMP.h</key>
 		<data>
-		OOCsv3yw2iqCYwk3loRs47dy7sI=
+		CSooNDJpnxMaRXUF7XJ8InVfSZ4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QkRh2mbEprBXK4H4EO+V08h0CG0=
+		+Z4FNe3ThHj1TufBIt2iWwQrty8=
 		</data>
 		<key>Modules/Next14CMP.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/Next14CMP.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VBLQ+AkIeIh5zYBT5MKnnAU6JA0=
+		/4ZUCiqRx7egaM/WEAbc+oFQohk=
 		</data>
 		<key>Modules/Next14CMP.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PsdIn3cLX8PYmg8/29ye6RuDG+I=
+		Ro65PvN64DkmUQjYfJbw3YlZCWY=
 		</data>
 		<key>Modules/Next14CMP.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VBLQ+AkIeIh5zYBT5MKnnAU6JA0=
+		/4ZUCiqRx7egaM/WEAbc+oFQohk=
 		</data>
 		<key>Modules/Next14CMP.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iayjqRWR5uKJPx0/wqyI3R4qz6U=
+		9VemIcbfbW+jI5qx2cZLhK84rws=
 		</data>
 		<key>Modules/Next14CMP.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,33 +50,33 @@
 		</data>
 		<key>Modules/Next14CMP.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ehzTVA+pk+2eBsGGYY3Fkvsb5d4=
+		YL4ZxnxM/REdQ5A32vkOey+Tspc=
 		</data>
 		<key>Modules/Next14CMP.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wKu5F89aOYe7mrBcb/Msf3fJM+Q=
+		f8g21J/ZhnYXDXCoqQ2uVZv7RrM=
 		</data>
 		<key>Modules/Next14CMP.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ehzTVA+pk+2eBsGGYY3Fkvsb5d4=
+		YL4ZxnxM/REdQ5A32vkOey+Tspc=
 		</data>
 		<key>Modules/Next14CMP.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lid4P3jDlStQ1lud/OZcyZtDifE=
+		8AaJSipwVAwHIl1crUUWoY2Jbyc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		hm3jpPEcD4xjZxaB/UCedYDIoNQ=
+		TY1fFQ6nyZU2PnpDLr7UaReJLMg=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		OGl4H7ny93gyz1FVztaVI+HrHt8=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>CMPStoryboard.storyboardc/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			djvTE5x+dkB8hHLXoFbQIW+1M4U=
-			</data>
 			<key>hash2</key>
 			<data>
 			eCztzx9eY5hIc8htCOc3t829yBM45Sy4pafpwr9nY5s=
@@ -84,21 +84,13 @@
 		</dict>
 		<key>CMPStoryboard.storyboardc/Qp6-q8-NNl-view-EnK-he-d6r.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			B+WbWtLbapXDeizxqk7Cksx0vRE=
-			</data>
 			<key>hash2</key>
 			<data>
-			rPNrM3S0EQC7IXMzB9FxCQJXejz8gcEg3DQZyEnaKmQ=
+			A3DAWysnPzNdAG/2f+smx/4JDi/bJGSdF9+v+UFNmpU=
 			</data>
 		</dict>
 		<key>CMPStoryboard.storyboardc/UIViewController-Qp6-q8-NNl.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			L1PspB+z1Nt8NU2WLY64XH1ppIA=
-			</data>
 			<key>hash2</key>
 			<data>
 			ijIiXt9jO+szxJ9aIu21lCYwADhWumBc3GH4KjS4dSE=
@@ -106,21 +98,13 @@
 		</dict>
 		<key>Headers/Next14CMP.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OOCsv3yw2iqCYwk3loRs47dy7sI=
-			</data>
 			<key>hash2</key>
 			<data>
-			lW5TB/qng+gDhM11fJNkCyAA7T5wkS3RnLVleijD6ko=
+			nWs2/pdFLwb5j0A+oBMk1K3h/ZBbwq9VFKNWu+tWhp0=
 			</data>
 		</dict>
 		<key>Modules/Next14CMP.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gcwBsH4BgyFY4sVtNt+/xOKS3vY=
-			</data>
 			<key>hash2</key>
 			<data>
 			Qnesa0n4URGWAopawg9bGx36dUwkYV00BoCJ8LFzlyg=
@@ -128,54 +112,34 @@
 		</dict>
 		<key>Modules/Next14CMP.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VBLQ+AkIeIh5zYBT5MKnnAU6JA0=
-			</data>
 			<key>hash2</key>
 			<data>
-			/eylkQFGtymhAbsFPiSoH9lhqNFK9LYgo1JG3eSFLN4=
+			XMOyu8/c2erEc7HvkAw0dA2iDObkTCa4F3AXXIXE2/c=
 			</data>
 		</dict>
 		<key>Modules/Next14CMP.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PsdIn3cLX8PYmg8/29ye6RuDG+I=
-			</data>
 			<key>hash2</key>
 			<data>
-			VN6LUw0rb9Oo/WZu1uzH/QZVyaghBFnLCStNxqKRoRI=
+			G+warLOgTZHWEJp+YOOjs6ge5u6cFoQu3kUt0s/agGM=
 			</data>
 		</dict>
 		<key>Modules/Next14CMP.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VBLQ+AkIeIh5zYBT5MKnnAU6JA0=
-			</data>
 			<key>hash2</key>
 			<data>
-			/eylkQFGtymhAbsFPiSoH9lhqNFK9LYgo1JG3eSFLN4=
+			XMOyu8/c2erEc7HvkAw0dA2iDObkTCa4F3AXXIXE2/c=
 			</data>
 		</dict>
 		<key>Modules/Next14CMP.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iayjqRWR5uKJPx0/wqyI3R4qz6U=
-			</data>
 			<key>hash2</key>
 			<data>
-			k/ixTiM0SHFutZ+rISbjZ4ZiCbOeCPUbqgU7t1x+LX8=
+			0sg19PjFhWVz6EmDaiwcsDLlgbQDV4hfSL9ejx16SkA=
 			</data>
 		</dict>
 		<key>Modules/Next14CMP.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gcwBsH4BgyFY4sVtNt+/xOKS3vY=
-			</data>
 			<key>hash2</key>
 			<data>
 			Qnesa0n4URGWAopawg9bGx36dUwkYV00BoCJ8LFzlyg=
@@ -183,57 +147,44 @@
 		</dict>
 		<key>Modules/Next14CMP.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ehzTVA+pk+2eBsGGYY3Fkvsb5d4=
-			</data>
 			<key>hash2</key>
 			<data>
-			lGGs6eNZlBSgYRYr9TSOkIqggU7RGmThEK1VcUcruqs=
+			vactzyunkdx/zHsTnHlUWvgyVRLM7n0xjRuQ/D3OqOM=
 			</data>
 		</dict>
 		<key>Modules/Next14CMP.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wKu5F89aOYe7mrBcb/Msf3fJM+Q=
-			</data>
 			<key>hash2</key>
 			<data>
-			v6Ci4pR9eJxAaIXa3nc6+gqyH291dZmD8xdX2CGG3E0=
+			riL8bSW6X6Lw/LCLpq9VzlrJYmVUWkmykJEWUnNPaxU=
 			</data>
 		</dict>
 		<key>Modules/Next14CMP.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ehzTVA+pk+2eBsGGYY3Fkvsb5d4=
-			</data>
 			<key>hash2</key>
 			<data>
-			lGGs6eNZlBSgYRYr9TSOkIqggU7RGmThEK1VcUcruqs=
+			vactzyunkdx/zHsTnHlUWvgyVRLM7n0xjRuQ/D3OqOM=
 			</data>
 		</dict>
 		<key>Modules/Next14CMP.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lid4P3jDlStQ1lud/OZcyZtDifE=
-			</data>
 			<key>hash2</key>
 			<data>
-			5qaXJ9aP5AFyxju1gys6xkGcoMLxnakKOUxyl3XnsgI=
+			cAz6qpT6UitIzyDvtEKRphoD7errHCcmqQOhXvGNO7g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hm3jpPEcD4xjZxaB/UCedYDIoNQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			2Cjrc5BHgY3KpOH+ZIGGbKo3Xo9GdIxA67LyfLGwW9g=
+			0jXjOY5jtn+Sam4LNzrb+b9R+vNZk1GuD7HNSOMN1IY=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ozHVGGR0Pr5OAN0iNgtKU4trOsJqaz61QJTmCjaVmhI=
 			</data>
 		</dict>
 	</dict>

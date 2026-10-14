@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Next14CMP
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Next14CMP
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import DeveloperToolsSupport
 import Foundation
 import Swift
@@ -14,79 +14,69 @@ import _SwiftConcurrencyShims
 import os.log
 import os
 @propertyWrapper public struct StringProperty {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var wrappedValue: Swift.String? {
+  public var wrappedValue: Swift::String? {
     get
     set(newValue)
   }
-  #endif
 }
 @propertyWrapper public struct BoolProperty {
-  public var wrappedValue: Swift.Bool {
+  public var wrappedValue: Swift::Bool {
     get
     set(newValue)
   }
 }
 @propertyWrapper public struct DoubleProperty {
-  public var wrappedValue: Swift.Double {
+  public var wrappedValue: Swift::Double {
     get
     set(newValue)
   }
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class CMP : ObjectiveC.NSObject {
-  @objc public static let shared: Next14CMP.CMP
+@objc @_inheritsConvenienceInitializers @objcMembers public class CMP : ObjectiveC::NSObject {
+  @objc public static let shared: Next14CMP::CMP
   @objc override dynamic public init()
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public func start(apiKey: Swift.String, settings: Next14CMP.CMPSettings = CMPSettings(), onComplete: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public func start(apiKey: Swift.String, settings: Next14CMP.CMPSettings = CMPSettings(), completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  #endif
-  @objc public func shouldPresentCMP() -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public func present(from presenter: UIKit.UIViewController, gdprApplies: Swift.Bool = true, onComplete: (() -> Swift.Void)? = nil)
-  #endif
+  @objc public func start(apiKey: Swift::String, settings: Next14CMP::CMPSettings = CMPSettings(), onComplete: ((Swift::Bool, (any Swift::Error)?) -> Swift::Void)? = nil)
+  public func start(apiKey: Swift::String, settings: Next14CMP::CMPSettings = CMPSettings(), completion: @escaping (Swift::Result<Swift::Bool, any Swift::Error>) -> Swift::Void)
+  @objc public func shouldPresentCMP() -> Swift::Bool
+  @objc public func present(from presenter: UIKit::UIViewController, gdprApplies: Swift::Bool = true, onComplete: (() -> Swift::Void)? = nil)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class CMPSettings : ObjectiveC.NSObject {
-  @objc public var consentPreferenceValidityDays: Swift.Int
+@objc @_inheritsConvenienceInitializers @objcMembers public class CMPSettings : ObjectiveC::NSObject {
+  @objc public var consentPreferenceValidityDays: Swift::Int
   @objc override dynamic public init()
-  @objc public init(consentPreferenceValidityDays: Swift.Int = 180)
+  @objc public init(consentPreferenceValidityDays: Swift::Int = 180)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class Logger : ObjectiveC.NSObject {
-  public static var `default`: any Next14CMP.LogWriter
+@objc @_inheritsConvenienceInitializers public class Logger : ObjectiveC::NSObject {
+  public static var `default`: any Next14CMP::LogWriter
   @objc override dynamic public init()
   @objc deinit
 }
-public enum LogLevel : Swift.UInt8 {
+public enum LogLevel : Swift::UInt8 {
   case verbose
   case debug
   case info
   case warn
   case error
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.UInt8)
-  #endif
-  public typealias RawValue = Swift.UInt8
-  public var rawValue: Swift.UInt8 {
+  public init?(rawValue: Swift::UInt8)
+  public typealias RawValue = Swift::UInt8
+  public var rawValue: Swift::UInt8 {
     get
   }
 }
 public protocol LogWriter {
-  var level: Next14CMP.LogLevel { get set }
-  func v(_ format: Swift.String, _ arguments: any Swift.CVarArg...)
-  func d(_ format: Swift.String, _ arguments: any Swift.CVarArg...)
-  func i(_ format: Swift.String, _ arguments: any Swift.CVarArg...)
-  func w(_ format: Swift.String, _ arguments: any Swift.CVarArg...)
-  func e(_ format: Swift.String, _ arguments: any Swift.CVarArg...)
+  var level: Next14CMP::LogLevel { get set }
+  func v(_ format: Swift::String, _ arguments: any Swift::CVarArg...)
+  func d(_ format: Swift::String, _ arguments: any Swift::CVarArg...)
+  func i(_ format: Swift::String, _ arguments: any Swift::CVarArg...)
+  func w(_ format: Swift::String, _ arguments: any Swift::CVarArg...)
+  func e(_ format: Swift::String, _ arguments: any Swift::CVarArg...)
 }
 @propertyWrapper public struct IntProperty {
-  public var wrappedValue: Swift.Int {
+  public var wrappedValue: Swift::Int {
     get
     set(newValue)
   }
 }
-extension Next14CMP.LogLevel : Swift.Equatable {}
-extension Next14CMP.LogLevel : Swift.Hashable {}
-extension Next14CMP.LogLevel : Swift.RawRepresentable {}
+extension Next14CMP::LogLevel : Swift::Equatable {}
+extension Next14CMP::LogLevel : Swift::Hashable {}
+extension Next14CMP::LogLevel : Swift::RawRepresentable {}
