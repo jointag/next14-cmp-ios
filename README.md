@@ -11,7 +11,7 @@ the iOS Simulator. Bitcode is also supported.
 1. Add the following to your Podfile:
 
 ```
-  pod 'Next14CMP', '~> 2.0.2'
+  pod 'Next14CMP', '~> 2.0.3'
 ```
 
 2. Install pod by running the following command in the directory with the Podfile:
