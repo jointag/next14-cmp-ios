@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author       = { "Dev Team" => "devteam@jointag.com" }
 
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "15.0"
 
   spec.source       = {
     :git => "https://github.com/jointag/next14-cmp-ios.git",
